@@ -1,0 +1,68 @@
+.upload-container {
+    width: 75%;
+    height: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    box-shadow: #aaa 0px 0px 10px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropzone-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .dropzone {
+    width: 45%;
+    height: 250px;
+    padding: 20px;
+    border: 2px dashed #aaa;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropzone:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .upload-details {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .actions {
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .cancel-button, .compare-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .compare-button {
+    background-color: #05549d;
+    color: #fff;
+  }
+  
